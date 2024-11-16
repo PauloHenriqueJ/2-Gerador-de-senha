@@ -6,11 +6,13 @@ body {
 }
 
 .image{
-  margin-left: 25%;
+  margin:auto;
   margin-bottom: 5px;
   position: relative;
   items-align:center;
   align-items:center;
+  display: flex;
+  justify-content: center;
   
 }
 
@@ -223,7 +225,7 @@ main {
 .submit button:hover {
   background-color: #9b51e0;
 }
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 580px){
   .password{
     padding: 1rem;
   }
@@ -244,7 +246,7 @@ main {
   }
 
   .image{
-    margin-left: 5px;
+    margin-left: auto;;
     margin-bottom: 5px;
     position: center;
     items-align:center;
@@ -254,7 +256,7 @@ main {
   
 }
 
-@media only screen and (min-width 620px){
+@media only screen and (min-width 520px){
   .image{
     margin-left: 5px;
     margin-bottom: 5px;
