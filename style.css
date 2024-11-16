@@ -6,11 +6,12 @@ body {
 }
 
 .image{
-  margin-left: 43%;
+  margin-left: 25%;
   margin-bottom: 5px;
   position: relative;
-
-
+  items-align:center;
+  align-items:center;
+  
 }
 
 main {
@@ -241,6 +242,27 @@ main {
   .password .actions img {
     width: 24px;
   }
+
+  .image{
+    margin-left: 5px;
+    margin-bottom: 5px;
+    position: center;
+    items-align:center;
+    align-items:center;
+    
+  }
   
 }
+
+@media only screen and (min-width 620px){
+  .image{
+    margin-left: 5px;
+    margin-bottom: 5px;
+    position: center;
+    items-align:center;
+    align-items:center;
+    
+  }
+  
+} 
 
